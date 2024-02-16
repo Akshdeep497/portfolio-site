@@ -11,16 +11,23 @@ body {
 
 nav {
     display: flex;
+
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     height: 50px;
     background-color: rgb(0, 0, 33);
     border-radius: 35px;
     /* border: solid rgb(58, 58, 97) 3px; */
     padding: 3px 0;
+    margin-right: 35%;
+}
+nav .leftnav{
+    width: 270px;
+    display: flex;
+    padding-left: 55px;
 }
 
-nav ul {
+/* nav ul {
     display: flex;
     justify-content: center;
 }
@@ -39,7 +46,7 @@ nav ul li a:hover {
 
     color: rgb(196, 196, 252);
     font-size: 1.02rem;
-}
+} */
 
 
 
@@ -137,13 +144,14 @@ main hr {
     top: 75px;
     width: 150px;
     font-size: 14px;
+    color: rgb(174, 110, 235);
 }
 
 .vertical-desc {
     position: relative;
     top: 86px;
     color: grey;
-    width: 150px;
+    width: 220px;
     font-size: 9px;
 
 }
@@ -180,4 +188,11 @@ footer .footer-rights {
     margin: 20px,0;
     position: ;
     border: solid rgb(230, 229, 231) 2px;
+}
+.buttons a{
+    text-decoration: none;
+}
+.footer-first h3{
+    width: 150%;
+    /* background-color: blue; */
 }
